@@ -64,6 +64,14 @@
 		<link rel="stylesheet" href="css/flaticon.css">
 		<link rel="stylesheet" href="css/icomoon.css">
 		<link rel="stylesheet" href="css/style.css">
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-171623959-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-171623959-1');
+		</script>
 	</head>
   	<body>
 		<!-- Start Nav Section -->
@@ -237,6 +245,16 @@
 					<div class="col-md-4 d-flex align-items-stretch">
 						<div class="img w-100" style="background-image: url(images/img3.jpg);"></div>
 					</div>
+				</div>
+				<div class="row justify-content-center mt-5">
+					<div class="col-md-4 heading-section text-center ftco-animate pb-5">
+						<h2 class="mb-4">HOW WE WORK</h2>
+						<p>-Work Pipeline-</p>
+					</div>
+				
+				<div class="col-md-12">
+					<img class="mx-auto d-block" src="images/workflow.png" alt="" style="width: 50%; height: auto;">
+				</div>
 				</div>
 			</div>
 		</section>
